@@ -1,0 +1,50 @@
+name: Feature Request
+description: Suggest a new feature or enhancement for a Lexdrel solution
+title: "[Feature] "
+labels: [enhancement, needs-triage]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us improve Lexdrel's products. Please describe the feature you'd like to see and how it would benefit your workflow.
+
+  - type: input
+    id: context
+    attributes:
+      label: Context or Use Case
+      description: What problem does this feature solve?
+      placeholder: "e.g. Automate client onboarding, improve dashboard clarity..."
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Feature Description
+      description: Describe the feature or enhancement in detail.
+      placeholder: "What should it do? How should it work?"
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Expected Impact
+      description: How would this feature improve your experience or business outcomes?
+      placeholder: "e.g. Save time, reduce manual work, improve UX..."
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority Level
+      description: How important is this feature to you?
+      options:
+        - Low
+        - Medium
+        - High
+        - Critical
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Info (optional)
+      description: If you'd like us to follow up, leave your email or GitHub handle.
+      placeholder: "e.g. alex@lexdrel.com"

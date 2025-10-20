@@ -1,0 +1,53 @@
+name: Lexdrel Ops Task
+description: Operational issue for internal tools, documentation updates, or platform evaluations
+title: "[Ops] "
+labels: [ops, documentation, internal]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to track operational tasks at Lexdrel—whether you're evaluating a new admin tool, updating internal docs, or defining how Slack, Zoom, and other platforms are used.
+
+  - type: input
+    id: task_type
+    attributes:
+      label: Task Type
+      description: What kind of ops task is this?
+      placeholder: "e.g. tool evaluation, documentation update, workflow definition"
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Background or Context
+      description: Why is this task needed? What problem or opportunity does it address?
+      placeholder: "Describe the motivation or trigger for this task..."
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Task Details
+      description: Describe what needs to be done, investigated, or written.
+      placeholder: "Include steps, tools involved, or specific paragraphs to add..."
+
+  - type: textarea
+    id: related_tools
+    attributes:
+      label: Tools or Platforms Involved
+      description: List any tools this task touches (e.g. Slack, Zoom, Notion, n8n, GitHub).
+      placeholder: "e.g. Slack for team comms, Zoom for client calls..."
+
+  - type: textarea
+    id: expected_outcome
+    attributes:
+      label: Expected Outcome
+      description: What should be achieved once this task is completed?
+      placeholder: "e.g. Updated onboarding doc, decision on tool adoption..."
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Info (optional)
+      description: If you'd like follow-up, leave your email or GitHub handle.
+      placeholder: "e.g. alex@lexdrel.com"

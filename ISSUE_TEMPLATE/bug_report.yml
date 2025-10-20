@@ -1,0 +1,56 @@
+name: Bug Report
+description: Report a technical issue or unexpected behavior in a Lexdrel solution
+title: "[Bug] "
+labels: [bug, needs-triage]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us improve Lexdrel's solutions. Please fill out the following details so we can investigate the issue effectively.
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Where did the bug occur?
+      placeholder: "e.g. production, staging, local"
+
+  - type: input
+    id: system
+    attributes:
+      label: Affected System or Module
+      description: Which part of the solution is affected?
+      placeholder: "e.g. n8n automation, frontend UI, API endpoint"
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: Describe the issue and what you expected to happen.
+      placeholder: "Describe the bug clearly..."
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Provide a step-by-step guide to reproduce the issue.
+      placeholder: |
+        1. Go to...
+        2. Click on...
+        3. Observe...
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Logs or Screenshots
+      description: Paste any error messages, logs, or screenshots that help explain the issue.
+      placeholder: "Attach logs or screenshots here..."
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Info (optional)
+      description: If you'd like us to follow up, leave your email or GitHub handle.
+      placeholder: "e.g. alex@lexdrel.com"

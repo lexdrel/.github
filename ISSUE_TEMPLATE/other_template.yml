@@ -1,0 +1,39 @@
+name: General Issue
+description: Share feedback, ask questions, or document internal tasks related to Lexdrel projects
+title: "[Other] "
+labels: [discussion, internal, needs-triage]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for anything that doesn't fit into a bug or feature request—questions, ideas, internal notes, or general feedback.
+
+  - type: input
+    id: category
+    attributes:
+      label: Category
+      description: What type of issue is this?
+      placeholder: "e.g. question, internal task, feedback, documentation"
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Describe the issue, idea, or topic you'd like to discuss.
+      placeholder: "Provide as much context as possible..."
+
+  - type: textarea
+    id: suggestions
+    attributes:
+      label: Suggested Next Steps (optional)
+      description: What actions do you recommend, if any?
+      placeholder: "e.g. Assign to team, schedule review, create follow-up task..."
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Info (optional)
+      description: If you'd like us to follow up, leave your email or GitHub handle.
+      placeholder: "e.g. alex@lexdrel.com"
