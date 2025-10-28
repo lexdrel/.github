@@ -44,8 +44,8 @@ Miami, Florida, 33131
 United States
 
 **Emails:**  
-- [Alex@lexdrel.com](mailto:alex@lexdrel.com)
 - [Jesus@lexdrel.com](mailto:jesus@lexdrel.com)
+- [Alex@lexdrel.com](mailto:alex@lexdrel.com)
 ---
 
 Lexdrel builds more than software—we build solutions that scale, automate, and empower.
