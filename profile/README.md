@@ -1,6 +1,6 @@
 # Lexdrel
 
-Lexdrel is a U.S.-based software company that delivers cloud-native solutions tailored to each client's unique needs. We specialize in custom software development, infrastructure configuration, intelligent automation, and strategic talent augmentation.
+Lexdrel is an U.S.-based software company located in Miami FL that delivers cloud-native solutions tailored to each client's unique needs. We specialize in custom software development, infrastructure configuration, intelligent automation, and strategic talent augmentation.
 
 ## 🚀 What We Do
 
