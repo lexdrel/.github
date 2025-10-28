@@ -43,9 +43,9 @@ Lexdrel provides vetted technical talent ready to embed with your team—no inte
 Miami, Florida, 33131  
 United States
 
-**Email:**  
-[alex@lexdrel.com](mailto:alex@lexdrel.com)
-[Jesus@lexdrel.com](mailto:jesus@lexdrel.com)
+**Emails:**  
+- [Alex@lexdrel.com](mailto:alex@lexdrel.com)
+- [Jesus@lexdrel.com](mailto:jesus@lexdrel.com)
 ---
 
 Lexdrel builds more than software—we build solutions that scale, automate, and empower.
